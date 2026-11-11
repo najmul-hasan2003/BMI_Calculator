@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F4F7FB"
+    android:padding="24dp"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="24dp"
+        android:elevation="6dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Body Details"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please enter your height and weight"
+            android:textSize="14sp"
+            android:textColor="#8492A6"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:layout_marginBottom="8dp"/>
+
+
+        <EditText
+            android:id="@+id/editheight"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Enter your height"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:textColorHint="#A0AAB8"
+            android:backgroundTint="#2196F3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <EditText
+            android:id="@+id/editweight"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="Enter your weight"
+            android:inputType="numberDecimal"
+            android:singleLine="true"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:textColorHint="#A0AAB8"
+            android:backgroundTint="#2196F3"/>
+
+
+        <Button
+            android:id="@+id/continueBtn"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="35dp"
+            android:text="Continue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>
